@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="c_codelite" Database="" Version="10.0.0">
   <Project Name="SimpleTests" Path="SimpleTests/SimpleTests.project" Active="No"/>
-  <Project Name="AutoKeyword" Path="AutoKeyword/AutoKeyword.project" Active="Yes"/>
+  <Project Name="AutoKeyword" Path="AutoKeyword/AutoKeyword.project" Active="No"/>
+  <Project Name="Constants" Path="Constants/Constants.project" Active="No"/>
+  <Project Name="Pointers" Path="Pointers/Pointers.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="SimpleTests" ConfigName="Debug"/>
       <Project Name="AutoKeyword" ConfigName="Debug"/>
+      <Project Name="Constants" ConfigName="Debug"/>
+      <Project Name="Pointers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="SimpleTests" ConfigName="Release"/>
       <Project Name="AutoKeyword" ConfigName="Release"/>
+      <Project Name="Constants" ConfigName="Release"/>
+      <Project Name="Pointers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
