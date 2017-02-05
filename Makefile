@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Modularization - Debug ]----------"
-	@cd "Modularization" && "$(MAKE)" -f  "Modularization.mk"
+	@echo "----------Building project:[ Exceptions - Debug ]----------"
+	@cd "Exceptions" && "$(MAKE)" -f  "Exceptions.mk"
 clean:
-	@echo "----------Cleaning project:[ Modularization - Debug ]----------"
-	@cd "Modularization" && "$(MAKE)" -f  "Modularization.mk" clean
+	@echo "----------Cleaning project:[ Exceptions - Debug ]----------"
+	@cd "Exceptions" && "$(MAKE)" -f  "Exceptions.mk" clean

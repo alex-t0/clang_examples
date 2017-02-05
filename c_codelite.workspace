@@ -8,7 +8,8 @@
   <Project Name="Structures" Path="Structures/Structures.project" Active="No"/>
   <Project Name="Classes" Path="Classes/Classes.project" Active="No"/>
   <Project Name="Enums" Path="Enums/Enums.project" Active="No"/>
-  <Project Name="Modularization" Path="Modularization/Modularization.project" Active="Yes"/>
+  <Project Name="Modularization" Path="Modularization/Modularization.project" Active="No"/>
+  <Project Name="Exceptions" Path="Exceptions/Exceptions.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -21,6 +22,7 @@
       <Project Name="Enums" ConfigName="Debug"/>
       <Project Name="Classes" ConfigName="Debug"/>
       <Project Name="Modularization" ConfigName="Debug"/>
+      <Project Name="Exceptions" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -33,6 +35,7 @@
       <Project Name="Enums" ConfigName="Release"/>
       <Project Name="Classes" ConfigName="Release"/>
       <Project Name="Modularization" ConfigName="Release"/>
+      <Project Name="Exceptions" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
