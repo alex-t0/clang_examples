@@ -1,0 +1,4 @@
+namespace SomeNamespace 
+{
+	int main();
+}

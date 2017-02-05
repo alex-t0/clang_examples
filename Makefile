@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Enums - Debug ]----------"
-	@cd "Enums" && "$(MAKE)" -f  "Enums.mk"
+	@echo "----------Building project:[ Modularization - Debug ]----------"
+	@cd "Modularization" && "$(MAKE)" -f  "Modularization.mk"
 clean:
-	@echo "----------Cleaning project:[ Enums - Debug ]----------"
-	@cd "Enums" && "$(MAKE)" -f  "Enums.mk" clean
+	@echo "----------Cleaning project:[ Modularization - Debug ]----------"
+	@cd "Modularization" && "$(MAKE)" -f  "Modularization.mk" clean

@@ -7,7 +7,8 @@
   <Project Name="Foreach" Path="Foreach/Foreach.project" Active="No"/>
   <Project Name="Structures" Path="Structures/Structures.project" Active="No"/>
   <Project Name="Classes" Path="Classes/Classes.project" Active="No"/>
-  <Project Name="Enums" Path="Enums/Enums.project" Active="Yes"/>
+  <Project Name="Enums" Path="Enums/Enums.project" Active="No"/>
+  <Project Name="Modularization" Path="Modularization/Modularization.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -19,6 +20,7 @@
       <Project Name="Structures" ConfigName="Debug"/>
       <Project Name="Enums" ConfigName="Debug"/>
       <Project Name="Classes" ConfigName="Debug"/>
+      <Project Name="Modularization" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -30,6 +32,7 @@
       <Project Name="Structures" ConfigName="Release"/>
       <Project Name="Enums" ConfigName="Release"/>
       <Project Name="Classes" ConfigName="Release"/>
+      <Project Name="Modularization" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
