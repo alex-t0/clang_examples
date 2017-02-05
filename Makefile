@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Structures - Debug ]----------"
-	@cd "Structures" && "$(MAKE)" -f  "Structures.mk"
+	@echo "----------Building project:[ Enums - Debug ]----------"
+	@cd "Enums" && "$(MAKE)" -f  "Enums.mk"
 clean:
-	@echo "----------Cleaning project:[ Structures - Debug ]----------"
-	@cd "Structures" && "$(MAKE)" -f  "Structures.mk" clean
+	@echo "----------Cleaning project:[ Enums - Debug ]----------"
+	@cd "Enums" && "$(MAKE)" -f  "Enums.mk" clean
