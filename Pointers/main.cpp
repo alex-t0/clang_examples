@@ -67,5 +67,23 @@ int main(int argc, char **argv)
 	char v4[5] = {0,1,2,3,4};
 	std::cout << "v4[4] = " << v4[4] << std::endl;
 	
+	std::cout << std::endl << "======= nullptr ========" << std::endl;
+	double *pd = nullptr;
+	if (nullptr == NULL)
+		std::cout << std::endl << "nullptr == NULL" << std::endl;
+	else
+		std::cout << std::endl << "nullptr != NULL" << std::endl;
+	
+	if (nullptr == 0)
+		std::cout << std::endl << "nullptr == 0" << std::endl;
+	else
+		std::cout << std::endl << "nullptr != 0" << std::endl;
+	
+	std::cout << std::endl << "42 + nullptr == " << 42 + (long)nullptr << std::endl;
+	std::cout << std::endl << "42 * nullptr == " << 42 * (long)nullptr << std::endl;
+	
+	std::cout << std::endl << "42 + NULL == " << 42 + NULL << std::endl;
+	std::cout << std::endl << "42 * NULL == " << 42 * NULL << std::endl;
+	
 	return 0;
 }

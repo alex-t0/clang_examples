@@ -3,8 +3,9 @@
   <Project Name="SimpleTests" Path="SimpleTests/SimpleTests.project" Active="No"/>
   <Project Name="AutoKeyword" Path="AutoKeyword/AutoKeyword.project" Active="No"/>
   <Project Name="Constants" Path="Constants/Constants.project" Active="No"/>
-  <Project Name="Pointers" Path="Pointers/Pointers.project" Active="Yes"/>
+  <Project Name="Pointers" Path="Pointers/Pointers.project" Active="No"/>
   <Project Name="Foreach" Path="Foreach/Foreach.project" Active="No"/>
+  <Project Name="Structures" Path="Structures/Structures.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="Constants" ConfigName="Debug"/>
       <Project Name="Pointers" ConfigName="Debug"/>
       <Project Name="Foreach" ConfigName="Debug"/>
+      <Project Name="Structures" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="Constants" ConfigName="Release"/>
       <Project Name="Pointers" ConfigName="Release"/>
       <Project Name="Foreach" ConfigName="Release"/>
+      <Project Name="Structures" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
