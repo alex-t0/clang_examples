@@ -53,11 +53,14 @@ int main(int argc, char **argv)
 	
 	{
 		int scopedvar = 5;
-		&xref = scopedvar;
+		xref = scopedvar;
+		int& xref2 = scopedvar;
 		scopedvar++;
 		std::cout << "(1) xref = " << xref << std::endl;
+		std::cout << "(1) xref2 = " << xref2 << std::endl;
 	}
 	std::cout << "(2) xref = " << xref << std::endl;
+	std::cout << "(2) somevar = " << somevar << std::endl;
 	
 	std::cout << std::endl << "===============" << std::endl;
 	
