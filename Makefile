@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Abstractions - Debug ]----------"
-	@cd "Abstractions" && "$(MAKE)" -f  "Abstractions.mk"
+	@echo "----------Building project:[ Templates - Debug ]----------"
+	@cd "Templates" && "$(MAKE)" -f  "Templates.mk"
 clean:
-	@echo "----------Cleaning project:[ Abstractions - Debug ]----------"
-	@cd "Abstractions" && "$(MAKE)" -f  "Abstractions.mk" clean
+	@echo "----------Cleaning project:[ Templates - Debug ]----------"
+	@cd "Templates" && "$(MAKE)" -f  "Templates.mk" clean
