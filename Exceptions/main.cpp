@@ -7,6 +7,8 @@ void throw_exception()
 
 int main(int argc, char **argv)
 {
+	static_assert(4<=sizeof(int), "integers are too small"); // check integer size
+	
 	try
 	{
 		throw_exception();

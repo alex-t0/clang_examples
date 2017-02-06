@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Exceptions
+ProjectName            :=Abstractions
 ConfigurationName      :=Debug
 WorkspacePath          :=/data/3/soft/devel/c_tutorial_codelite/c_codelite
-ProjectPath            :=/data/3/soft/devel/c_tutorial_codelite/c_codelite/Exceptions
+ProjectPath            :=/data/3/soft/devel/c_tutorial_codelite/c_codelite/Abstractions
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=alex-t
-Date                   :=05/02/17
+Date                   :=06/02/17
 CodeLitePath           :=/home/alex-t/.codelite
 LinkerName             :=clang++
 SharedObjectLinkerName :=clang++ -shared -fPIC
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E 
-ObjectsFileList        :="Exceptions.txt"
+ObjectsFileList        :="Abstractions.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/data/3/soft/devel/c_tutorial_codelite/c_codelite/Exceptions/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/data/3/soft/devel/c_tutorial_codelite/c_codelite/Abstractions/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
