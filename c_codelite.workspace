@@ -11,7 +11,9 @@
   <Project Name="Modularization" Path="Modularization/Modularization.project" Active="No"/>
   <Project Name="Exceptions" Path="Exceptions/Exceptions.project" Active="No"/>
   <Project Name="Abstractions" Path="Abstractions/Abstractions.project" Active="No"/>
-  <Project Name="Templates" Path="Templates/Templates.project" Active="Yes"/>
+  <Project Name="Templates" Path="Templates/Templates.project" Active="No"/>
+  <Project Name="Lambdas" Path="Lambdas/Lambdas.project" Active="No"/>
+  <Project Name="SmartPointers" Path="SmartPointers/SmartPointers.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -27,6 +29,8 @@
       <Project Name="Exceptions" ConfigName="Debug"/>
       <Project Name="Abstractions" ConfigName="Debug"/>
       <Project Name="Templates" ConfigName="Debug"/>
+      <Project Name="Lambdas" ConfigName="Debug"/>
+      <Project Name="SmartPointers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -42,6 +46,8 @@
       <Project Name="Exceptions" ConfigName="Release"/>
       <Project Name="Abstractions" ConfigName="Release"/>
       <Project Name="Templates" ConfigName="Release"/>
+      <Project Name="Lambdas" ConfigName="Release"/>
+      <Project Name="SmartPointers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

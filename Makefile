@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Templates - Debug ]----------"
-	@cd "Templates" && "$(MAKE)" -f  "Templates.mk"
+	@echo "----------Building project:[ SmartPointers - Debug ]----------"
+	@cd "SmartPointers" && "$(MAKE)" -f  "SmartPointers.mk"
 clean:
-	@echo "----------Cleaning project:[ Templates - Debug ]----------"
-	@cd "Templates" && "$(MAKE)" -f  "Templates.mk" clean
+	@echo "----------Cleaning project:[ SmartPointers - Debug ]----------"
+	@cd "SmartPointers" && "$(MAKE)" -f  "SmartPointers.mk" clean
