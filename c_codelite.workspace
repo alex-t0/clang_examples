@@ -3,7 +3,7 @@
   <Project Name="SimpleTests" Path="SimpleTests/SimpleTests.project" Active="No"/>
   <Project Name="AutoKeyword" Path="AutoKeyword/AutoKeyword.project" Active="No"/>
   <Project Name="Constants" Path="Constants/Constants.project" Active="No"/>
-  <Project Name="Pointers" Path="Pointers/Pointers.project" Active="Yes"/>
+  <Project Name="Pointers" Path="Pointers/Pointers.project" Active="No"/>
   <Project Name="Foreach" Path="Foreach/Foreach.project" Active="No"/>
   <Project Name="Structures" Path="Structures/Structures.project" Active="No"/>
   <Project Name="Classes" Path="Classes/Classes.project" Active="No"/>
@@ -16,6 +16,8 @@
   <Project Name="SmartPointers" Path="SmartPointers/SmartPointers.project" Active="No"/>
   <Project Name="Threads" Path="Threads/Threads.project" Active="No"/>
   <Project Name="Future" Path="Future/Future.project" Active="No"/>
+  <Project Name="Strings" Path="Strings/Strings.project" Active="No"/>
+  <Project Name="LvalueRvalue" Path="LvalueRvalue/LvalueRvalue.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -35,6 +37,8 @@
       <Project Name="SmartPointers" ConfigName="Debug"/>
       <Project Name="Threads" ConfigName="Debug"/>
       <Project Name="Future" ConfigName="Debug"/>
+      <Project Name="Strings" ConfigName="Debug"/>
+      <Project Name="LvalueRvalue" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -54,6 +58,8 @@
       <Project Name="SmartPointers" ConfigName="Release"/>
       <Project Name="Threads" ConfigName="Release"/>
       <Project Name="Future" ConfigName="Release"/>
+      <Project Name="Strings" ConfigName="Release"/>
+      <Project Name="LvalueRvalue" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

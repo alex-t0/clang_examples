@@ -8,6 +8,12 @@ int rand_func()
 	return rand();
 }
 
+void f1(int n)
+{
+	int arr[n];
+	arr[0] = 42;
+}
+
 int main(int argc, char **argv)
 {
 	char v[1000];
@@ -94,6 +100,13 @@ int main(int argc, char **argv)
 	
 	int local_variable = 42;
 	// f = [&](char* lparam1) { local_variable = *lparam1; };
+	
+	// f1(-10);
+	
+	if (sizeof("jopa") == 5)
+		std::cout << "size of jopa is 5" << std::endl;
+	
+	std::cout<< "beep at end of message\a\n";
 	
 	return 0;
 }
