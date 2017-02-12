@@ -24,6 +24,15 @@ void f(Vector v, Vector& rv, Vector* pv)
 	int i4 = pv->size; // access through pointer
 }
 
+struct Address {
+	const char* name;
+	int number;
+	const char* street;
+	const char* town;
+	char state[2];
+	const char* zip;
+};
+
 int main(int argc, char **argv)
 {
 	Vector v1;
@@ -52,6 +61,13 @@ int main(int argc, char **argv)
 				<< "simple base size: " 				<< sizeof b1		 << '\n'
 				<< "sizeof bit class: "					<< sizeof bit		 << '\n'
 				/*<< "sizeof bit.bit : "					<< sizeof(bit.bit)	 << '\n'*/;
+	
+	Address jd = {
+		"Jim Dandy",
+		61, "South St",
+		"New Providence",
+		{'N','J'}, "07974"
+	};
 	
 	return 0;
 }

@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ LvalueRvalue - Debug ]----------"
-	@cd "LvalueRvalue" && "$(MAKE)" -f  "LvalueRvalue.mk"
+	@echo "----------Building project:[ Structures - Debug ]----------"
+	@cd "Structures" && "$(MAKE)" -f  "Structures.mk"
 clean:
-	@echo "----------Cleaning project:[ LvalueRvalue - Debug ]----------"
-	@cd "LvalueRvalue" && "$(MAKE)" -f  "LvalueRvalue.mk" clean
+	@echo "----------Cleaning project:[ Structures - Debug ]----------"
+	@cd "Structures" && "$(MAKE)" -f  "Structures.mk" clean

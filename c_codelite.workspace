@@ -5,7 +5,7 @@
   <Project Name="Constants" Path="Constants/Constants.project" Active="No"/>
   <Project Name="Pointers" Path="Pointers/Pointers.project" Active="No"/>
   <Project Name="Foreach" Path="Foreach/Foreach.project" Active="No"/>
-  <Project Name="Structures" Path="Structures/Structures.project" Active="No"/>
+  <Project Name="Structures" Path="Structures/Structures.project" Active="Yes"/>
   <Project Name="Classes" Path="Classes/Classes.project" Active="No"/>
   <Project Name="Enums" Path="Enums/Enums.project" Active="No"/>
   <Project Name="Modularization" Path="Modularization/Modularization.project" Active="No"/>
@@ -17,7 +17,7 @@
   <Project Name="Threads" Path="Threads/Threads.project" Active="No"/>
   <Project Name="Future" Path="Future/Future.project" Active="No"/>
   <Project Name="Strings" Path="Strings/Strings.project" Active="No"/>
-  <Project Name="LvalueRvalue" Path="LvalueRvalue/LvalueRvalue.project" Active="Yes"/>
+  <Project Name="LvalueRvalue" Path="LvalueRvalue/LvalueRvalue.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
