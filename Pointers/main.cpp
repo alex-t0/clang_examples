@@ -85,5 +85,15 @@ int main(int argc, char **argv)
 	std::cout << std::endl << "42 + NULL == " << 42 + NULL << std::endl;
 	std::cout << std::endl << "42 * NULL == " << 42 * NULL << std::endl;
 	
+	char******************************************************** megapointer;
+	
+	int* ap[50]; // array of 50 pointers to int
+	
+	int (*fp)(char*); 	// pointer to func, char* parameter, returns int
+	int* f(char*);		// function, returns int*, parameter char*
+	
+	int local_variable = 42;
+	// f = [&](char* lparam1) { local_variable = *lparam1; };
+	
 	return 0;
 }

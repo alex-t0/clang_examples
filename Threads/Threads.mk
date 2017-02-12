@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Pointers
+ProjectName            :=Threads
 ConfigurationName      :=Debug
 WorkspacePath          :=/data/3/soft/devel/c_tutorial_codelite/c_codelite
-ProjectPath            :=/data/3/soft/devel/c_tutorial_codelite/c_codelite/Pointers
+ProjectPath            :=/data/3/soft/devel/c_tutorial_codelite/c_codelite/Threads
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=alex-t
-Date                   :=12/02/17
+Date                   :=11/02/17
 CodeLitePath           :=/home/alex-t/.codelite
 LinkerName             :=clang++
 SharedObjectLinkerName :=clang++ -shared -fPIC
@@ -32,10 +32,10 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E 
-ObjectsFileList        :="Pointers.txt"
+ObjectsFileList        :="Threads.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
-LinkOptions            :=  
+LinkOptions            :=  -pthread
 IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). 
 IncludePCH             := 
 RcIncludePath          := 
@@ -50,7 +50,7 @@ LibPath                := $(LibraryPathSwitch).
 AR       := ar rcus
 CXX      := clang++
 CC       := clang
-CXXFLAGS :=  -g -O0 -std=c++14 -std=c++11 -Wall $(Preprocessors)
+CXXFLAGS :=  -g -O0 -std=c++14 -std=c++11 -Wall -pthread $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := llvm-as
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/data/3/soft/devel/c_tutorial_codelite/c_codelite/Pointers/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/data/3/soft/devel/c_tutorial_codelite/c_codelite/Threads/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 

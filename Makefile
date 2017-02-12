@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ SmartPointers - Debug ]----------"
-	@cd "SmartPointers" && "$(MAKE)" -f  "SmartPointers.mk"
+	@echo "----------Building project:[ Pointers - Debug ]----------"
+	@cd "Pointers" && "$(MAKE)" -f  "Pointers.mk"
 clean:
-	@echo "----------Cleaning project:[ SmartPointers - Debug ]----------"
-	@cd "SmartPointers" && "$(MAKE)" -f  "SmartPointers.mk" clean
+	@echo "----------Cleaning project:[ Pointers - Debug ]----------"
+	@cd "Pointers" && "$(MAKE)" -f  "Pointers.mk" clean
