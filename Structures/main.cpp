@@ -33,6 +33,25 @@ struct Address {
 	const char* zip;
 };
 
+struct SizeTest1
+{
+	char ch1;
+	int i1;
+	char ch2;
+};
+
+struct SizeTest2
+{
+	int i1;
+	char ch1;
+	char ch2;
+};
+
+struct Recursive
+{
+	// Recursive r;
+};
+
 int main(int argc, char **argv)
 {
 	Vector v1;
@@ -68,6 +87,8 @@ int main(int argc, char **argv)
 		"New Providence",
 		{'N','J'}, "07974"
 	};
+	
+	std::cout << "sizeof(SizeTest1) = " << sizeof(SizeTest1) << "; sizeof(SizeTest2) = " << sizeof(SizeTest2) << std::endl;
 	
 	return 0;
 }
